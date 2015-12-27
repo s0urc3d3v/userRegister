@@ -39,6 +39,14 @@ public class User {
 
         buttonPanel.add(sumbit);
         buttonPanel.add(exit);
-        
+
+        sumbit.addActionListener(e -> {
+            
+        });
+        exit.addActionListener(e -> {
+                System.exit(0);
+        });
+
+
     }
 }
